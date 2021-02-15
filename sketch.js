@@ -39,8 +39,6 @@ async function setup() {
   requestAnimationFrame(draw);
 }
 
-setup();
-
 function draw(){
   requestAnimationFrame(draw);
   // Switch between showing the raw camera or the style
