@@ -101,6 +101,6 @@ function createCanvas(w, h) {
   const canvas = document.createElement("canvas");
   canvas.width = w;
   canvas.height = h;
-  document.body.appendChild(canvasElement);
+  document.body.appendChild(canvas);
   return canvas;
 }
